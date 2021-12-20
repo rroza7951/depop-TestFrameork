@@ -4,7 +4,8 @@
   "description": "Depop automation framework ",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules\\.bin\\cypress run --headed",
+    "cypress": "node_modules\\.bin\\cypress open",
+    "test": "node_modules\\.bin\\cypress run --headed --reporter mochawesome",
     "testHeadless": "npm run test",
     "TestLoginHeaded": "npm run test -- --headed --reporter mochawesome --spec cypress\\integration\\functionalTest\\login.js",
     "TestLoginHeadless": "npm run test -- --reporter mochawesome --spec cypress\\integration\\functionalTest\\login.js",

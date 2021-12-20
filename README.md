@@ -26,8 +26,13 @@ If you get stuck, here is more help:
     ## install the node_modules
     npm install
 
-    ## start the test
+    ## Open the Terminal and run the below command to initiate cypress Testrunner
+    npm run cypress
+
+    ## Open another terminal and start the test
     npm run test
 
 The npm run test will start the execution and validate the login functionality of the Depop application.
 
+### 3. Reporting
+    Mochawesome report is used to generate the report. The html report can be viewed in the mochawesomme-report folder
