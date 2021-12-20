@@ -8,6 +8,8 @@ This framework is implemented with Page Object Model Design pattern which helps 
 
 The steps below will take you all the way through Cypress. It is assumed you have nothing installed except for node + git.
 
+Latest Node version eg : node v16.13.1
+
 If you get stuck, here is more help:
 
 [Cypress Support](https://on.cypress.io/support)
@@ -25,9 +27,6 @@ If you get stuck, here is more help:
 
     ## install the node_modules
     npm install
-
-    ## Open the Terminal and run the below command to initiate cypress Testrunner
-    npm run cypress
 
     ## Open another terminal and start the test
     npm run test
