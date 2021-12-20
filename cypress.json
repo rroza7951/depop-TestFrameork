@@ -1,0 +1,11 @@
+{
+    "defaultCommandTimeout": 8000,
+    "env": {
+        "url": "https://www.depop.com/"
+    },
+    "projectId": "2xa4hb",
+    "reporter": "mochawesome",
+    "retries": {
+        "runMode": 1
+    }
+}

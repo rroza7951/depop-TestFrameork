@@ -1,0 +1,12 @@
+# IDE - VSCode
+.vscode/*
+# Dependency directories
+node_modules/
+cypress/videos
+cypress/screenshots
+# Optional npm cache directory
+.npm
+
+# System Files
+.DS_Store
+Thumbs.db

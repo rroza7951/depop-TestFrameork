@@ -1,0 +1,21 @@
+{
+  "name": "depopcypressautomation",
+  "version": "1.0.0",
+  "description": "Depop automation framework ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "testHeaded": "npm run test -- --headed",
+    "TestLoginHeaded": "npm run test -- --headed --reporter mochawesome --spec cypress\\integration\\functionalTest\\login.js",
+    "TestLoginHeadless": "npm run test -- --reporter mochawesome --spec cypress\\integration\\functionalTest\\login.js",
+    "TestLoginChrome": "npm run test -- --headed --browser chrome --reporter mochawesome --spec cypress\\integration\\functionalTest\\login.js",
+    "recordDashboardTest": "npm run test -- --headed --reporter mochawesome --spec cypress\\integration\\functionalTest\\login.js --record --key 81b50249-e323-47a0-9c23-f13b36167c38"
+  },
+  "author": "Rohit Rozario",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1"
+  }
+}
