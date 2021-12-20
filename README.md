@@ -1,6 +1,8 @@
 # depop-TestFrameork
 
-This repo contains the template framework with login page tests written in Cypress for Depop applciation.
+This repo contains the template framework with login page tests written in Cypress for the Depop application.
+
+This framework is implemented with Page Object Model Design pattern which helps in maintenance and managing of the framework.
 
 ## Installation Setup
 
@@ -13,7 +15,7 @@ If you get stuck, here is more help:
 ### 1. Installing Cypress
 [Follow these instructions to install Cypress.](https://on.cypress.io/installing-cypress)
 
-### 2. Executing the testcase.
+### 2. Executing the test case.
 
     ## clone this repo to a local directory
     git clone https://github.com/rroza7951/depop-TestFrameork.git
@@ -27,5 +29,5 @@ If you get stuck, here is more help:
     ## start the test
     npm run test
 
-The npm run test will start the execution and validated the login functionality of the depop application.
+The npm run test will start the execution and validate the login functionality of the Depop application.
 
